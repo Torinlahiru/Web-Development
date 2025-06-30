@@ -9,3 +9,27 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+.container {
+  text-align: center;
+}
+
+.todo-app {
+  width: 300px;
+  height: 500px;
+  background: lightblue;
+  border-radius: 10px;
+}
+.todo-app h2 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.todo-app input {
+  width: 200px;
+  padding: 5px;
+}
+.todo-app button {
+  width: 50px;
+  padding: 5px;
+}
