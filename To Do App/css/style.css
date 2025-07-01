@@ -30,11 +30,19 @@ body {
 
 .todo-app input {
   width: 200px;
-  padding: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
 }
 .todo-app button {
-  width: 50px;
-  padding: 5px;
+  margin-top: 30px;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 100px;
+  border: none;
 }
 
 .list {
