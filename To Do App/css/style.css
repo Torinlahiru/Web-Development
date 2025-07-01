@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: rgb(16, 126, 163);
 }
 
 .container {
@@ -18,8 +19,9 @@ body {
   padding: 10px;
   width: 300px;
   height: 500px;
-  background: lightblue;
+  /* background: lightblue; */
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .todo-app h2 {
   padding-top: 20px;
@@ -43,9 +45,28 @@ body {
 }
 
 .task {
-  padding: 20px;
+  padding: 10px;
   text-align: left;
   display: flex;
   justify-content: space-between;
+}
+
+ul {
+  width: 100%;
+
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  border-radius: 10px;
+  padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.delete {
+  margin-left: 20px;
 }

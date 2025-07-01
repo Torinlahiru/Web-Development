@@ -5,7 +5,8 @@ function addTask() {
 
   const li = document.createElement("li");
   li.innerHTML = `
-        <span onclick="toggleTask(this)">${taskText}</span>
+        <p onclick="toggleTask(this)">${taskText}
+        </p>
         <span class="delete" onclick="deleteTask(this)">×</span>
       `;
 
