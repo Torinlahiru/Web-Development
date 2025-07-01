@@ -14,8 +14,8 @@
     <div class="container">
       <div class="todo-app">
         <h2>To Do List</h2>
-        <input type="text" placeholder="Enter your task " />
-        <button>+</button>
+        <input id="taskInput" type="text" placeholder="Enter your task " />
+        <button id="btnAdd" onclick="addTask()">+</button>
         <br />
         <div class="list">
           <label for="">Task </label>
@@ -23,11 +23,10 @@
           <label for="">Status</label>
         </div>
         <div class="task">
-          <label for="">Shopping</label>
-          <label for="">6.00 AM</label>
-          <button><i class="fa-solid fa-check"></i></button>
+          <ul id="taskList"></ul>
         </div>
       </div>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
