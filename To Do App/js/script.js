@@ -12,3 +12,11 @@ function addTask() {
   document.getElementById("taskList").appendChild(li);
   input.value = "";
 }
+
+function deleteTask(elem) {
+  elem.parentElement.remove();
+}
+
+function toggleTask(elem) {
+  elem.classList.toggle("checked");
+}
