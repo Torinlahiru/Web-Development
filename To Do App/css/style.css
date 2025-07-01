@@ -33,3 +33,10 @@ body {
   width: 50px;
   padding: 5px;
 }
+
+.list {
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
