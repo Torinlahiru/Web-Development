@@ -8,7 +8,7 @@ function addTask() {
   li.innerHTML = `
         <p >${taskText}</p>
         <p >${inputTime.value}</p>
-        <span class="delete" onclick="deleteTask(this)">×</span>
+        <span class="delete" onclick="deleteTask(this)">X</span>
       `;
 
   document.getElementById("taskList").appendChild(li);
